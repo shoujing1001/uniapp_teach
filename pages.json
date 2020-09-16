@@ -1,0 +1,225 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "导航"
+			}
+		}
+	    ,{
+            "path" : "pages/add_course/add_course",
+            "style" : {
+				"navigationBarTitleText": "创建课程"
+			}
+        }
+        ,{
+            "path" : "pages/teacher_add_course/teacher_add_course",
+            "style" : {
+				"navigationBarTitleText": "创建课程"
+			}
+        }
+        ,{
+            "path" : "pages/course_chapter/course_chapter",
+            "style" : {
+				"navigationBarTitleText": "创建课程"
+			}
+        }
+        ,{
+            "path" : "pages/add_course_task/add_course_task",
+            "style" : {
+				"navigationBarTitleText": "创建课程"
+			}
+        }
+        ,{
+            "path" : "pages/clock_detail/clock_detail",
+            "style" : {
+				"navigationBarTitleText": "打卡详情"
+			}
+        }
+        ,{
+            "path" : "pages/publish_course/publish_course",
+            "style" : {
+				"navigationBarTitleText": "创建课程"
+			}
+        }
+        ,{
+            "path" : "pages/bought_user/bought_user",
+            "style" : {
+				"navigationBarTitleText": "购买用户"
+			}
+        }
+        ,{
+            "path" : "pages/teacher_course/teacher_course",
+            "style" : {
+				"navigationBarTitleText": "课程"
+			}
+        }
+        ,{
+            "path" : "pages/teacher_tiku/teacher_tiku",
+            "style" : {
+				"navigationBarTitleText": "题库"
+			}
+        }
+        ,{
+            "path" : "pages/teacher_course_list/teacher_course_list",
+            "style" : {
+				"navigationBarTitleText": "已创建课程"
+			}
+        }
+        ,{
+            "path" : "pages/teacher_income_list/teacher_income_list",
+            "style" : {
+				"navigationBarTitleText": "收益列表"
+			}
+        }
+        ,{
+            "path" : "pages/teacher_info/teacher_info",
+            "style" : {
+				"navigationBarTitleText": "我的信息",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"text":"修改",
+								"fontSize":"28rpx"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/teacher_tiku_add/teacher_tiku_add",
+            "style" : {
+				"navigationBarTitleText": "添加题库"
+			}
+        }
+        ,{
+            "path" : "pages/teacher_course_detail/teacher_course_detail",
+            "style" : {
+				"navigationBarTitleText": "课程详情"
+			}
+        }
+        ,{
+            "path" : "pages/user_clock/user_clock",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user_clock_up/user_clock_up",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user_course_detail/user_course_detail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/course_detail_2/course_detail_2",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/course_detail_3/course_detail_3",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/rank_list/rank_list",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user_clock_input/user_clock_input",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/course_detail_4/course_detail_4",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/forget_pass/forget_pass",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/apply_teacher/apply_teacher",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/new_clock_page/new_clock_page",
+            "style" : {}
+        },
+		{
+		    "path" : "pages/edit_user_info/edit_user_info",
+		    "style" : {
+				"navigationBarTitleText": "编辑"
+			}
+		}
+		,{
+		    "path" : "pages/collect/collect",
+		    "style" : {
+				"navigationBarTitleText": "我的收藏"
+			}
+		}
+		,{
+		    "path" : "pages/bought_course/bought_course",
+		    "style" : {
+				"navigationBarTitleText": "已购买课程"
+			}
+		}
+		,{
+		    "path" : "pages/gongyi/gongyi",
+		    "style" : {
+				"navigationBarTitleText": "已参与公益"
+			}
+		}
+		,{
+		    "path" : "pages/commonweal_org/commonweal_org",
+		    "style" : {
+				"navigationBarTitleText": "公益组织详情"
+			}
+		}
+		,{
+		    "path" : "pages/sub_result/sub_result",
+		    "style" : {
+				"navigationBarTitleText": "提交结果"
+			}
+		}
+		,{
+		    "path" : "pages/donation_detail/donation_detail",
+		    "style" : {
+				"app-plus":{
+					"titleNView":false
+				},
+				"navigationBarTitleText": "捐赠详情"
+			}
+		}
+		,{
+		    "path" : "pages/share/share",
+		    "style" : {
+				"navigationBarTitleText": "分享"
+			}
+		}
+		,{
+		    "path" : "pages/share_2/share_2",
+		    "style" : {
+				"navigationBarTitleText": "分享"
+			}
+		}
+        ,{
+            "path" : "pages/category/category",
+            "style" : {
+				"navigationBarTitleText": "分类"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
